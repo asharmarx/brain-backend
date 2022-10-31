@@ -1,12 +1,14 @@
 const express = require("express");
 const app = express();
-const cors = require("cors");
 const port = process.env.PORT || 8080;
 const whatIRead = require("./whatiread");
 const whatIHaveDone = require("./whatihavedone");
 
 app.use(express.json());
-app.use(cors({ origin: ["https://aman.monster", "http://localhost:3000"] }));
+app.use((req, res, next) => {
+  res.setHeader("Access-Control-Allow-Origin", "https://aman.monster");
+  next();
+});
 app.get("/", (req, res) => {
   res.end("pong");
 });
