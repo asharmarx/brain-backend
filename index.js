@@ -10,7 +10,7 @@ app.use((req, res, next) => {
   next();
 });
 app.get("/", (req, res) => {
-  res.end("fuck off");
+  res.end("this is my bum");
 });
 app.get("/what-i-read", (req, res) => {
   res.send(whatIRead);
