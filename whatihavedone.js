@@ -66,6 +66,13 @@ const whatIHaveDone = [
       "dative: After thinking of the first three, all that is left is the indirect object, which is impacted by both the direct object (accusative) and the verb",
     ],
   },
+  {
+    id: 9,
+    title: "walmart mask vid",
+    imageLink: ["https://i.imgur.com/4hn6nBn.gif"],
+    description: `i was living in small town az in 2020, and the mask usage during the pandemic was shite so i made this video to demonstrate that.`,
+    components: ["camera work - my ma", "everything else - me"],
+  },
 ];
 
 module.exports = { whatIHaveDone };
