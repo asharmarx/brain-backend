@@ -115,6 +115,18 @@ const whatIRead = [
   },
   {
     id: 11,
+    title: "Berbers",
+    summary:
+      "North African indigenous group. One theory of where the word 'Barbarian' comes from.",
+    resources: [
+      {
+        title: "Wikipedia",
+        link: "https://en.wikipedia.org/wiki/Berbers?wprov=sfti1",
+      },
+    ],
+  },
+  {
+    id: 12,
     title: "Dual Inheritance Theory",
     summary:
       "The theory relating to the evolution of culture and genetics together. It talks about how humans are imitation machines and it is because of this imitation we were able to pass down useful cultural knowledge which, in turn, impacted genetic evolution.",
@@ -126,7 +138,7 @@ const whatIRead = [
     ],
   },
   {
-    id: 12,
+    id: 13,
     title: "The Government Securities Market: In the Wake of ESM",
     summary:
       "Talks about repurchase agreements (repos), and what regulations should be introduced to make them more corruption proof",
@@ -138,7 +150,7 @@ const whatIRead = [
     ],
   },
   {
-    id: 13,
+    id: 14,
     title: "Piaget's Theory of Cognitive Development",
     summary:
       "Breaks down the development of the brain from birth to adulthood, and how humans gather data about their environment to make sense out of it",
@@ -146,6 +158,42 @@ const whatIRead = [
       {
         title: "Wikipedia",
         link: "https://en.wikipedia.org/wiki/Piaget%27s_theory_of_cognitive_development",
+      },
+    ],
+  },
+  {
+    id: 15,
+    title: "The Baby Boom and World War II: A Macroeconomic Analysis",
+    summary:
+      "Talks about the causes of the Baby Boom and it's impact on the labor market",
+    resources: [
+      {
+        title: "National Bureau of Economic Research",
+        link: "https://www.nber.org/system/files/working_papers/w13707/w13707.pdf",
+      },
+    ],
+  },
+  {
+    id: 16,
+    title:
+      "The Universe Is Not Locally Real, and the Physics Nobel Prize Winners Proved It",
+    summary: "Do not render what is not seen as a dev would say",
+    resources: [
+      {
+        title: "Scientific American",
+        link: "https://www.scientificamerican.com/article/the-universe-is-not-locally-real-and-the-physics-nobel-prize-winners-proved-it/",
+      },
+    ],
+  },
+  {
+    id: 17,
+    title: "Late Bronze Age Collapse",
+    summary:
+      "Collapse of a bunch of (fairly successful) civilizations in the fertile crescent that happened in a short amount of time. A lot of similarities to current times 🤷🏽‍♂️",
+    resources: [
+      {
+        title: "Wikipedia",
+        link: "https://en.wikipedia.org/wiki/Late_Bronze_Age_collapse?wprov=sfti1",
       },
     ],
   },

@@ -37,12 +37,34 @@ const whatIHaveDone = [
   {
     id: 4,
     title: "sharmanet",
-    description: `This is a family website I built for my family to upload photos to. React Frontend w/ NodeJS backend running on Raspberry Pi with NGINX reverse proxy`,
+    description: `This is a family website I built for my family to upload photos to. React Frontend w/ NodeJS + MongoDB backend running on Raspberry Pi with NGINX reverse proxy`,
   },
   {
     id: 5,
     title: "brain.aman.monster",
     description: `The brains (backend) for this website. It's running on the forever free tier of Google Compute Engine with NGINX reverse proxy`,
+  },
+  {
+    id: 6,
+    title: "aa_chat",
+    description:
+      "A chat app i built using socket.io. It runs on my local network and allows me and my partner to chat while we work.",
+  },
+  {
+    id: 7,
+    title: "Italian",
+    description: `I started learning Italian during the summer of 2018 to pass time while I was searching for a job. Used the "Coffee Break Italian podcast. 4 years later (2022), and I can read and and understand ~90% common Italian. Can speak but slowly`,
+  },
+  {
+    id: 8,
+    title: "German grammar",
+    description: `I wanted to understand the different German cases (nominative, accusative, genitive, and dative). This is how I understand/remember them:`,
+    components: [
+      "nominative: I think of the word nominated, so the main person/thing or, in a sentence, the one taking the action",
+      "accusative: I think of accusing someone, so something is being done onto them. In a sentence, the object the action is being taken upon aka the direct object",
+      "genitive: This is where Italian comes in handy. I think of the Italian word for parents (genitori) and parents reminds of possession. So this case is about possession",
+      "dative: After thinking of the first three, all that is left is the indirect object, which is impacted by both the direct object (accusative) and the verb",
+    ],
   },
 ];
 
