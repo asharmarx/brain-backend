@@ -14,10 +14,22 @@ const whatIHaveDone = [
     ],
     description: `I started baking bread late 2021. I wanted to find a way to make the best bread in the simplest way. I use honey, yeast, flour, salt, and water and the prep takes 10 minutes, rising 12hrs, and baking 37min`,
     components: [
-      "1/2 tbsp honey",
-      "1/2 tbsp yeast",
-      "3 cups flour",
-      "1/2 tbsp salt",
+      "300g-310g Water - 1 1/3 cup",
+      "Add 10-15g honey - 1/2 tbsp",
+      "Add 2-4g yeast - 1/2 tbsp yeast",
+      "Let yeast eat and fart for 5-10mins",
+      "For flour you can 400-420g of one type of flour or",
+      "Add 200-210g bread flour - 1.5 cups",
+      "Add 200-210g all purpose flour - 1.5 cups",
+      "Add 6-8g salt - 1/2 tbsp salt",
+      "Mix together with ladle, no kneading, mixture should we somewhat wet/moist",
+      "Let rise overnight or for ~12-13hrs",
+      "Sprinkle flour on parchment paper and dump the mixture",
+      "Fold it a few times to get a nice even blob",
+      "Heat oven to 500, put dutch oven in (empty) and set a timer for 30mins",
+      "Add parchment paper with dough and bake for 25mins with lid on",
+      "Bake for another 12mins with lid off",
+      "Donezo",
     ],
   },
   {
@@ -46,9 +58,9 @@ const whatIHaveDone = [
   },
   {
     id: 6,
-    title: "aa_chat",
+    title: "cranchy",
     description:
-      "A chat app i built using socket.io. It runs on my local network and allows me and my partner to chat while we work.",
+      "A chat app i built using socket.io. It runs on my local network and allows me and my partner to chat while we work. It was fun doing this project. Learned a lot about socket.io and also CSS",
   },
   {
     id: 7,
@@ -72,6 +84,13 @@ const whatIHaveDone = [
     imageLink: ["https://i.imgur.com/4hn6nBn.gif"],
     description: `i was living in small town az in 2020, and the mask usage during the pandemic was shite so i made this video to demonstrate that.`,
     components: ["camera work - my ma", "everything else - me"],
+  },
+  {
+    id: 10,
+    title: "communist animals",
+    imageLink: ["https://i.imgur.com/EVVXN9Jl.jpg"],
+    description: `the band i started with my partner. list of our songs below`,
+    components: ["duck murder", "javalina rampage", "our of control (bug)"],
   },
 ];
 
