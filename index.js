@@ -3,6 +3,7 @@ const app = express();
 const port = process.env.PROD_PORT || 9443;
 const whatIRead = require("./whatiread");
 const whatIHaveDone = require("./whatihavedone");
+const whatIHaveHeard = require("./whatihaveheard");
 const rateLimit = require("express-rate-limit");
 
 const limiter = rateLimit({
@@ -34,6 +35,9 @@ app.get("/what-i-read", (req, res) => {
 });
 app.get("/what-i-have-done", (req, res) => {
   return res.send(whatIHaveDone);
+});
+app.get("/what-i-have-heard", (req, res) => {
+  return res.send(whatIHaveHeard);
 });
 
 app.listen(port, () => console.log(`brain listening on port ${port}!`));
