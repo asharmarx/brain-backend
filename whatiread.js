@@ -197,6 +197,18 @@ const whatIRead = [
       },
     ],
   },
+  {
+    id: 18,
+    title: "The Question of Structure and Vision in European Integration",
+    summary:
+      "A paper by James W. Skillen that talks about the future of Europe post WWII and post Soviet Union and what work Europe as a continent needs to do in order to emerge as a successful and powerful society.",
+    resources: [
+      {
+        title: "Sci-Hub",
+        link: "https://sci-hub.se/https://doi.org/10.1016/0191-6599(92)90137-2",
+      },
+    ],
+  },
 ];
 
 module.exports = { whatIRead };
