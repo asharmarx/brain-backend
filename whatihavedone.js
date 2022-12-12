@@ -48,7 +48,7 @@ const whatIHaveDone = [
   },
   {
     id: 4,
-    title: "sharmanet",
+    title: "sharmanet.com",
     description: `This is a family website I built for my family to upload photos to. React Frontend w/ NodeJS + MongoDB backend running on Raspberry Pi with NGINX reverse proxy`,
   },
   {
