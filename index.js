@@ -26,7 +26,7 @@ const whereDatComeFrom =
     ? "https://aman.monster"
     : "http://localhost:3000";
 
-app.use(cors());
+app.use(cors({ origin: whereDatComeFrom }));
 app.use(express.json());
 app.use(limiter);
 app.use((req, res, next) => {
