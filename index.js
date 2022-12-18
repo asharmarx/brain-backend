@@ -1,10 +1,18 @@
 const express = require("express");
-const app = express();
-const port = process.env.PROD_PORT || 9443;
+const cors = require("cors");
+const { graphqlHTTP } = require("express-graphql");
+const { buildSchema } = require("graphql");
+
 const whatIRead = require("./whatiread");
 const whatIHaveDone = require("./whatihavedone");
 const whatIHaveHeard = require("./whatihaveheard");
 const rateLimit = require("express-rate-limit");
+const whatIReadSkeme = require("./alwaysSchemin/whatIReadSkeme");
+const whatIHaveDoneSkeme = require("./alwaysSchemin/whatIHaveDoneSkeme");
+const whatIHaveHeardSkeme = require("./alwaysSchemin/whatihaveheardskeme");
+
+const app = express();
+const port = process.env.PROD_PORT || 9443;
 
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 5 minutes
@@ -18,26 +26,36 @@ const whereDatComeFrom =
     ? "https://aman.monster"
     : "http://localhost:3000";
 
+app.use(cors());
 app.use(express.json());
 app.use(limiter);
 app.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Origin", whereDatComeFrom);
   res.setHeader("Access-Control-Allow-Methods", "GET");
   next();
-
-  next();
 });
 app.get("/", (req, res) => {
-  res.end("this is my bum");
+  return res.send("this is my bum");
 });
-app.get("/what-i-read", (req, res) => {
-  return res.send(whatIRead);
-});
-app.get("/what-i-have-done", (req, res) => {
-  return res.send(whatIHaveDone);
-});
-app.get("/what-i-have-heard", (req, res) => {
-  return res.send(whatIHaveHeard);
-});
+
+const schema = buildSchema(
+  `type Query { _empty: String }${whatIReadSkeme}${whatIHaveDoneSkeme}${whatIHaveHeardSkeme}`
+);
+
+// The root provides a resolver function for each API endpoint
+const root = {
+  whatiread: () => whatIRead,
+  whatihavedone: () => whatIHaveDone,
+  whatihaveheard: () => whatIHaveHeard,
+};
+
+app.use(
+  "/collectthis",
+  graphqlHTTP({
+    schema,
+    rootValue: root,
+    graphiql: true,
+  })
+);
 
 app.listen(port, () => console.log(`brain listening on port ${port}!`));
