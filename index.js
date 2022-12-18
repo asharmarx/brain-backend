@@ -1,5 +1,4 @@
 const express = require("express");
-const cors = require("cors");
 const { graphqlHTTP } = require("express-graphql");
 const { buildSchema } = require("graphql");
 
@@ -26,18 +25,6 @@ const whereDatComeFrom =
     ? "https://aman.monster"
     : "http://localhost:3000";
 
-app.use(cors({ origin: whereDatComeFrom }));
-app.use(express.json());
-app.use(limiter);
-app.use((req, res, next) => {
-  res.setHeader("Access-Control-Allow-Origin", whereDatComeFrom);
-  res.setHeader("Access-Control-Allow-Methods", "GET");
-  next();
-});
-app.get("/", (req, res) => {
-  return res.send("this is my bum");
-});
-
 const schema = buildSchema(
   `type Query { _empty: String }${whatIReadSkeme}${whatIHaveDoneSkeme}${whatIHaveHeardSkeme}`
 );
@@ -48,6 +35,29 @@ const root = {
   whatihavedone: () => whatIHaveDone,
   whatihaveheard: () => whatIHaveHeard,
 };
+
+app.use(express.json());
+app.use(limiter);
+app.use((req, res, next) => {
+  res.setHeader("Access-Control-Allow-Origin", whereDatComeFrom);
+  next();
+});
+app.get("/", (req, res) => {
+  return res.send("this is my bum");
+});
+
+app.use("/collectthis", function (req, res, next) {
+  res.header("Access-Control-Allow-Origin", whereDatComeFrom);
+  res.header(
+    "Access-Control-Allow-Headers",
+    "Content-Type, Authorization, Content-Length, X-Requested-With"
+  );
+  if (req.method === "OPTIONS") {
+    res.sendStatus(200);
+  } else {
+    next();
+  }
+});
 
 app.use(
   "/collectthis",
