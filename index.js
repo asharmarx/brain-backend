@@ -7,8 +7,8 @@ const whatIRead = require("./whatiread");
 const whatIHaveDone = require("./whatihavedone");
 const whatIHaveHeard = require("./whatihaveheard");
 const rateLimit = require("express-rate-limit");
-const whatIReadSkeme = require("./alwaysSchemin/whatIReadSkeme");
-const whatIHaveDoneSkeme = require("./alwaysSchemin/whatIHaveDoneSkeme");
+const whatIReadSkeme = require("./alwaysSchemin/whatireadskeme");
+const whatIHaveDoneSkeme = require("./alwaysSchemin/whatihavedoneskeme");
 const whatIHaveHeardSkeme = require("./alwaysSchemin/whatihaveheardskeme");
 
 const app = express();
