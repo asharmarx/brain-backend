@@ -395,4 +395,4 @@ const whatIHaveHeard = [
   },
 ];
 
-module.exports = { whatIHaveHeard };
+module.exports = whatIHaveHeard;

@@ -94,4 +94,4 @@ const whatIHaveDone = [
   },
 ];
 
-module.exports = { whatIHaveDone };
+module.exports = whatIHaveDone;

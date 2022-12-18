@@ -211,4 +211,4 @@ const whatIRead = [
   },
 ];
 
-module.exports = { whatIRead };
+module.exports = whatIRead;
