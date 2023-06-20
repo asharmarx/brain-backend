@@ -65,7 +65,7 @@ const whatIHaveDone = [
   {
     id: 7,
     title: "Italian",
-    description: `I started learning Italian during the summer of 2018 to pass time while I was searching for a job. Used the "Coffee Break Italian podcast. 4 years later (2022), and I can read and and understand ~90% common Italian. Can speak but slowly`,
+    description: `I started learning Italian during the summer of 2018 to pass time while I was searching for a job. Used the "Coffee Break Italian podcast". 4 years later (2022), and I can read and and understand ~90% common Italian. Can speak but slowly`,
   },
   {
     id: 8,
@@ -91,6 +91,30 @@ const whatIHaveDone = [
     imageLink: ["https://i.imgur.com/EVVXN9Jl.jpg"],
     description: `the band i started with my partner. list of our songs below`,
     components: ["duck murder", "javalina rampage", "our of control (bug)"],
+  },
+  {
+    id: 11,
+    title: "dark chocolate almond bark",
+    imageLink: [
+      "https://i.imgur.com/xIsDJA0.jpg",
+      "https://i.imgur.com/9e7gZ5M.jpg",
+      "https://i.imgur.com/PEWbj2H.jpg",
+      "https://i.imgur.com/334HiQV.jpg",
+      "https://i.imgur.com/jpYEm1J.jpg",
+    ],
+    description: `72% dark chocolate, almonds, chill, enjoy`,
+    components: [
+      "melt chocolate",
+      "add almonds",
+      "pour on parchment paper",
+      "put in fridge for 30 mins",
+    ],
+  },
+  {
+    id: 12,
+    title: "whetheronot",
+    description: `built a standard weather app to track so I can check whether of all the cities`,
+    components: ["check it out: https://aman.monster/entropy"],
   },
 ];
 
