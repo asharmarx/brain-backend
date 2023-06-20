@@ -393,6 +393,146 @@ const whatIHaveHeard = [
       },
     ],
   },
+  {
+    year: "2022",
+    aux: [
+      {
+        id: "1yPxQ0CSc34",
+        song: "trademark USA - baby keem",
+        num: 1,
+      },
+      {
+        id: "K7ZqZVunCb4",
+        song: "Krigsgaldr - Heilung",
+        num: 2,
+      },
+      {
+        id: "fkEmZyQzYrw",
+        song: "In the Morning - ZHU",
+        num: 3,
+      },
+      {
+        id: "QQGEpKeR1Uc",
+        song: "Lonely & Cold - Gramatik",
+        num: 4,
+      },
+      {
+        id: "AslPYSm7jfg",
+        song: "The Wheel - SOHN",
+        num: 5,
+      },
+      {
+        id: "0DQKrICE97o",
+        song: "Sunset Jamie xx edit - The xx",
+        num: 6,
+      },
+      {
+        id: "LGD9i718kBU",
+        song: "Love My Way - The Psychedelic Furs",
+        num: 7,
+      },
+      {
+        id: "Eg2nr1aSHIQ",
+        song: "Lithium - Odd Mob",
+        num: 8,
+      },
+      {
+        id: "kC5RLiWgIc8",
+        song: "Murder in the First (slowed/screwed) - Tommy Wright III",
+        num: 9,
+      },
+      {
+        id: "DP9JXWypuow",
+        song: "Lights - Ellie Goulding (slowed)",
+        num: 10,
+      },
+      {
+        id: "jg3yteeumWE",
+        song: "Merci Bon Dieu - Charlie Rouse",
+        num: 11,
+      },
+      {
+        id: "A8oKnHRrgBg",
+        song: "Fried Neck Bones And Some Home Fries - Willie Bobo",
+        num: 12,
+      },
+      {
+        id: "QBMEmjrlcOQ",
+        song: "Let Me Kill Em - 10 Wanted Men",
+        num: 13,
+      },
+      {
+        id: "ojyo2gTkQ9A",
+        song: "Glock - 10 Wanted Men",
+        num: 14,
+      },
+      {
+        id: "eOGFcAATqMY",
+        song: "Eres Tu Cosa - Joe Bataan",
+        num: 15,
+      },
+      {
+        id: "YtEQUAAitng",
+        song: "Stash Pot - Koopsta Knicca",
+        num: 16,
+      },
+      {
+        id: "Qpu5QMa9xCQ",
+        song: "Oblivion - Mastodon",
+        num: 17,
+      },
+      {
+        id: "hDxdFvs9H9o",
+        song: "Robbers - Koopsta Knicca",
+        num: 18,
+      },
+      {
+        id: "DEkn4K21rwY",
+        song: "Good News (Intro) - Mighty Bay",
+        num: 19,
+      },
+      {
+        id: "GKoB-aEkWds",
+        song: "Etumba - Franklin Boukaka",
+        num: 20,
+      },
+      {
+        id: "OQTImQ0RQNg",
+        song: "Sodium - Bones",
+        num: 21,
+      },
+      {
+        id: "i-xU9RCqaTk",
+        song: "Pistol - XXXTENTACION",
+        num: 22,
+      },
+      {
+        id: "St5u6Ho4Uks",
+        song: "Dostochka - DakhaBrakha",
+        num: 23,
+      },
+      {
+        id: "7DjmTTshzMc",
+        song: "What in XXXTarnation - XXXTentacion",
+        num: 24,
+      },
+      {
+        id: "Fq-Mb1H1mFk",
+        song: "Cakewalk - Ezéchiel Pailhès",
+        num: 25,
+      },
+      {
+        id: "mM3aRDAe8OQ",
+        song: "Last Chance - Thornato",
+        num: 26,
+      },
+      {
+        id: "gMotH6XH2tQ",
+        song: "Holiday - Lil Nas X",
+        num: 27,
+      },
+    ],
+  },
 ];
 
 module.exports = whatIHaveHeard;
