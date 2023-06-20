@@ -23,7 +23,7 @@ const limiter = rateLimit({
 const whereDatComeFrom =
   process.env.NODE_ENV === "production"
     ? "https://aman.monster"
-    : "http://localhost:3000";
+    : "http://localhost:3001";
 
 const schema = buildSchema(
   `type Query { _empty: String }${whatIReadSkeme}${whatIHaveDoneSkeme}${whatIHaveHeardSkeme}`
