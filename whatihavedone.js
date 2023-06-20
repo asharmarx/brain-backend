@@ -96,11 +96,11 @@ const whatIHaveDone = [
     id: 11,
     title: "dark chocolate almond bark",
     imageLink: [
-      "https://i.imgur.com/xIsDJA0.jpg",
-      "https://i.imgur.com/9e7gZ5M.jpg",
-      "https://i.imgur.com/PEWbj2H.jpg",
-      "https://i.imgur.com/334HiQV.jpg",
-      "https://i.imgur.com/jpYEm1J.jpg",
+      "https://i.imgur.com/xIsDJA0m.jpg",
+      "https://i.imgur.com/9e7gZ5Mm.jpg",
+      "https://i.imgur.com/PEWbj2Hm.jpg",
+      "https://i.imgur.com/334HiQVm.jpg",
+      "https://i.imgur.com/jpYEm1Jm.jpg",
     ],
     description: `72% dark chocolate, almonds, chill, enjoy`,
     components: [
