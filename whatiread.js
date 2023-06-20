@@ -58,19 +58,21 @@ const whatIRead = [
     title: "Double Irish",
     summary:
       "a technique by which companies avoid paying taxes. Essentially, US Company develops tech for $x, sells it to a company in Bermuda for $x, which appreciates it to $100x (no gains tax in Bermuda). The Bermuda company licenses it to Irland_1 for $100x which licenses it Ireland_2 for $100x which sells it customer in Germany for $100x. They money is then pushed back to Bermuda as royalty payments which loans it back to US Company",
-    resources: [],
-    seeAlso: [],
+    resources: [
+      {
+        title: "Wikipedia",
+        link: "https://en.wikipedia.org/wiki/Double_Irish_arrangement",
+      },
+    ],
+    seeAlso: [
+      {
+        title: "Single Malt",
+        link: "https://en.wikipedia.org/wiki/Palingenetic_ultranationalism#Single_Malt",
+      },
+    ],
   },
   {
     id: 6,
-    title: "Single Malt",
-    summary:
-      "double irish got some heat, so companies use this to avoid paying taxes. Malt because Malta is used",
-    resources: [],
-    seeAlso: [],
-  },
-  {
-    id: 7,
     title: "Treasure Islands",
     summary: "paper about tax havens, and how they operate",
     resources: [
@@ -82,7 +84,7 @@ const whatIRead = [
     seeAlso: [],
   },
   {
-    id: 8,
+    id: 7,
     title: "War Is Not Part of Human Nature",
     summary: "article about how war originated within humans",
     resources: [
@@ -94,15 +96,20 @@ const whatIRead = [
     seeAlso: [],
   },
   {
-    id: 9,
+    id: 8,
     title: "Co-Moving Distance",
     summary:
       "co-moving distance between two object does not change as they move further apart",
-    resources: [{ title: "Co-Moving Distance", link: "" }],
+    resources: [
+      {
+        title: "Co-Moving Distance",
+        link: "https://en.wikipedia.org/wiki/Comoving_and_proper_distances",
+      },
+    ],
     seeAlso: [],
   },
   {
-    id: 10,
+    id: 9,
     title: "Next Turn Repair Initiators",
     summary:
       "Words or phrases in language that, when engaged in a conversation, one party uses to inform the other that they have not understood them.",
@@ -114,7 +121,7 @@ const whatIRead = [
     ],
   },
   {
-    id: 11,
+    id: 10,
     title: "Berbers",
     summary:
       "North African indigenous group. One theory of where the word 'Barbarian' comes from.",
@@ -126,7 +133,7 @@ const whatIRead = [
     ],
   },
   {
-    id: 12,
+    id: 11,
     title: "Dual Inheritance Theory",
     summary:
       "The theory relating to the evolution of culture and genetics together. It talks about how humans are imitation machines and it is because of this imitation we were able to pass down useful cultural knowledge which, in turn, impacted genetic evolution.",
@@ -138,7 +145,7 @@ const whatIRead = [
     ],
   },
   {
-    id: 13,
+    id: 12,
     title: "The Government Securities Market: In the Wake of ESM",
     summary:
       "Talks about repurchase agreements (repos), and what regulations should be introduced to make them more corruption proof",
@@ -150,7 +157,7 @@ const whatIRead = [
     ],
   },
   {
-    id: 14,
+    id: 13,
     title: "Piaget's Theory of Cognitive Development",
     summary:
       "Breaks down the development of the brain from birth to adulthood, and how humans gather data about their environment to make sense out of it",
@@ -162,7 +169,7 @@ const whatIRead = [
     ],
   },
   {
-    id: 15,
+    id: 14,
     title: "The Baby Boom and World War II: A Macroeconomic Analysis",
     summary:
       "Talks about the causes of the Baby Boom and it's impact on the labor market",
@@ -174,7 +181,7 @@ const whatIRead = [
     ],
   },
   {
-    id: 16,
+    id: 15,
     title:
       "The Universe Is Not Locally Real, and the Physics Nobel Prize Winners Proved It",
     summary: "Do not render what is not seen as a dev would say",
@@ -186,7 +193,7 @@ const whatIRead = [
     ],
   },
   {
-    id: 17,
+    id: 16,
     title: "Late Bronze Age Collapse",
     summary:
       "Collapse of a bunch of (fairly successful) civilizations in the fertile crescent that happened in a short amount of time. A lot of similarities to current times 🤷🏽‍♂️",
@@ -198,7 +205,7 @@ const whatIRead = [
     ],
   },
   {
-    id: 18,
+    id: 17,
     title: "The Question of Structure and Vision in European Integration",
     summary:
       "A paper by James W. Skillen that talks about the future of Europe post WWII and post Soviet Union and what work Europe as a continent needs to do in order to emerge as a successful and powerful society.",
@@ -206,6 +213,54 @@ const whatIRead = [
       {
         title: "Sci-Hub",
         link: "https://sci-hub.se/https://doi.org/10.1016/0191-6599(92)90137-2",
+      },
+    ],
+  },
+  {
+    id: 18,
+    title:
+      "Babylon: Mesopotamia and The Birth of Civilization - Paul Kriwaczek",
+    summary:
+      "Book about the origins of human civilization i.e the shift from hunter-gatherer to agrarian, the rise of ancient cities such as Uruk and Eridu, the invention of writing, etc and how some aspects of it still impact us today",
+    resources: [
+      {
+        title: "Z-Library (Requires Tor Browser)",
+        link: "http://bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead.onion/",
+      },
+    ],
+  },
+  {
+    id: 19,
+    title: "Bound Morphemes",
+    summary: `In linguistics, they are a part of a word that cannot stand on their own for example the "s" in "cards" or "cran" in "cranberry"`,
+    resources: [
+      {
+        title: "Wikipedia",
+        link: "https://en.wikipedia.org/wiki/Bound_and_free_morphemes",
+      },
+    ],
+    seeAlso: [
+      {
+        title: "cranberry morphemes",
+        link: "https://en.wikipedia.org/wiki/Cranberry_morpheme",
+      },
+    ],
+  },
+  {
+    id: 20,
+    title: "Tomorrow, Tomorrow, and Tomorrow - Gabrielle Zevin",
+    summary:
+      "Fictional story about two childhood gamer friends who navigate life's unexpected twists and turns as they make games together",
+  },
+  {
+    id: 21,
+    title: "Indian campaign of Alexander the Great",
+    summary:
+      "Details of Alexander the Great's campaign in to the Indian subcontinent. ",
+    resources: [
+      {
+        title: "Wikipedia",
+        link: "https://en.wikipedia.org/wiki/Indian_campaign_of_Alexander_the_Great",
       },
     ],
   },
