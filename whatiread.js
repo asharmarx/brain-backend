@@ -264,6 +264,60 @@ const whatIRead = [
       },
     ],
   },
+  {
+    id: 22,
+    title: "Primordial Nuclide",
+    summary:
+      "Nuclides that existed in their current before the earth was formed. Either they have a half life longer than the time period Earth has existed or they are considered, for all intents and purposes, stable",
+    resources: [
+      {
+        title: "Wikipedia",
+        link: "https://en.wikipedia.org/wiki/Primordial_nuclide",
+      },
+    ],
+    seeAlso: [
+      {
+        title: "Thorium-232",
+        link: "https://en.wikipedia.org/wiki/Thorium-232",
+      },
+      {
+        title: "Uranium-238",
+        link: "https://en.wikipedia.org/wiki/Uranium-238",
+      },
+    ],
+  },
+  {
+    id: 23,
+    title:
+      "Indigenous Diplomacy: Sakhalin Ainu (Enchiw) in the Shaping of Modern East Asia (Part 1: Traders and Travellers)",
+    summary:
+      "In this essay, the history of the Ainu people is described, mainly their dealings with the Manchu people and the rise of their leader Setokurero",
+    resources: [
+      {
+        title: "The Asia Pacific Journal",
+        link: "https://apjjf.org/2020/22/Morris-Suzuki.html",
+      },
+    ],
+    seeAlso: [
+      {
+        title: "Sakhalin",
+        link: "https://en.wikipedia.org/wiki/Sakhalin",
+      },
+    ],
+  },
+  {
+    id: 24,
+    title:
+      "Indigenous Diplomacy: Sakhalin Ainu (Enchiw) in the Shaping of Modern East Asia (Part 2: Voices and Silences)",
+    summary:
+      "The second part of the essay talks about Setokurero's diplomacy as he dealt with Russian and Japanese colonialism and how he, even with limited resources, made sure his people survived",
+    resources: [
+      {
+        title: "The Asia Pacific Journal",
+        link: "https://apjjf.org/2020/23/Morris-Suzuki.html",
+      },
+    ],
+  },
 ];
 
 module.exports = whatIRead;
