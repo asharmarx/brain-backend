@@ -90,7 +90,12 @@ const whatIHaveDone = [
     title: "communist animals",
     imageLink: ["https://i.imgur.com/EVVXN9Jl.jpg"],
     description: `the band i started with my partner. list of our songs below`,
-    components: ["duck murder", "javalina rampage", "our of control (bug)"],
+    components: [
+      "duck murder",
+      "javalina rampage",
+      "our of control (bug)",
+      "BananaPee",
+    ],
   },
   {
     id: 11,
